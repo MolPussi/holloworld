@@ -58,6 +58,20 @@ namespace m
                         Console.WriteLine("Сначала введите A и B.");
                     }
 
+
+                }
+                else if (choice == "4")
+                {
+                    // Операция вычитания
+                    if (isASet && isBSet)
+                    {
+                        double result = a - b;
+                        Console.WriteLine($"Результат A - B = {result}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Сначала введите A и B.");
+                    }
                 }
             }
         }
