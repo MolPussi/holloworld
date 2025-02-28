@@ -73,6 +73,19 @@ namespace m
                         Console.WriteLine("Сначала введите A и B.");
                     }
                 }
+                else if (choice == "5")
+                {
+                    // Операция умножения
+                    if (isASet && isBSet)
+                    {
+                        double result = a * b;
+                        Console.WriteLine($"Результат A * B = {result}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Сначала введите A и B.");
+                    }
+                }
             }
         }
     }
