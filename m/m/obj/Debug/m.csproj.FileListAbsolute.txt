@@ -1,0 +1,7 @@
+D:\git\helloworld\MyConsoleApp\m\m\bin\Debug\m.exe.config
+D:\git\helloworld\MyConsoleApp\m\m\bin\Debug\m.exe
+D:\git\helloworld\MyConsoleApp\m\m\bin\Debug\m.pdb
+D:\git\helloworld\MyConsoleApp\m\m\obj\Debug\m.csproj.AssemblyReference.cache
+D:\git\helloworld\MyConsoleApp\m\m\obj\Debug\m.csproj.CoreCompileInputs.cache
+D:\git\helloworld\MyConsoleApp\m\m\obj\Debug\m.exe
+D:\git\helloworld\MyConsoleApp\m\m\obj\Debug\m.pdb
