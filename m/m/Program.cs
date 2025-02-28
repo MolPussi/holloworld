@@ -11,7 +11,10 @@ namespace m
         static void Main(string[] args)
         {
             double a = 0; // Переменная для хранения A
+            double b = 0; // Переменная для хранения B
             bool isASet = false; // Флаг для проверки, введено ли A
+            bool isBSet = false; // Флаг для проверки, введено ли B
+
             while (true)
             {
                 Console.WriteLine("Меню:");
@@ -27,12 +30,20 @@ namespace m
                 string choice = Console.ReadLine();
 
                 if (choice == "0") break;
+
                 if (choice == "1")
                 {
                     // Ввод A
                     Console.Write("Введите A: ");
                     a = Convert.ToDouble(Console.ReadLine());
                     isASet = true; // Устанавливаем флаг, что A введено
+                }
+                else if (choice == "2")
+                {
+                    // Ввод B
+                    Console.Write("Введите B: ");
+                    b = Convert.ToDouble(Console.ReadLine());
+                    isBSet = true; // Устанавливаем флаг, что B введено
                 }
 
             }
