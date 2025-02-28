@@ -10,6 +10,8 @@ namespace m
     {
         static void Main(string[] args)
         {
+            double a = 0; // Переменная для хранения A
+            bool isASet = false; // Флаг для проверки, введено ли A
             while (true)
             {
                 Console.WriteLine("Меню:");
@@ -25,6 +27,13 @@ namespace m
                 string choice = Console.ReadLine();
 
                 if (choice == "0") break;
+                if (choice == "1")
+                {
+                    // Ввод A
+                    Console.Write("Введите A: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    isASet = true; // Устанавливаем флаг, что A введено
+                }
 
             }
         }
