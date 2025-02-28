@@ -86,6 +86,26 @@ namespace m
                         Console.WriteLine("Сначала введите A и B.");
                     }
                 }
+                else if (choice == "6")
+                {
+                    // Операция деления
+                    if (isASet && isBSet)
+                    {
+                        if (b != 0)
+                        {
+                            double result = a / b;
+                            Console.WriteLine($"Результат A / B = {result}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ошибка: Деление на ноль невозможно.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Сначала введите A и B.");
+                    }
+                }
             }
         }
     }
