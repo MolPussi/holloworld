@@ -45,7 +45,20 @@ namespace m
                     b = Convert.ToDouble(Console.ReadLine());
                     isBSet = true; // Устанавливаем флаг, что B введено
                 }
+                else if (choice == "3")
+                {
+                    // Операция сложения
+                    if (isASet && isBSet)
+                    {
+                        double result = a + b;
+                        Console.WriteLine($"Результат A + B = {result}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Сначала введите A и B.");
+                    }
 
+                }
             }
         }
     }
